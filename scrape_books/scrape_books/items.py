@@ -8,6 +8,11 @@ from dataclasses import dataclass
 
 @dataclass
 class ScrapeBooksItem:
-    # define the fields for your item here like:
-    # name: str | None = None
-    pass
+    title: str |None
+    price: str | None
+    amount_in_stock: int | None
+    rating: str | None
+    description: str |None
+    category: str | None
+    upc: str | None
+
